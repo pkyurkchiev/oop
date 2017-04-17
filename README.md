@@ -1,0 +1,2 @@
+# oop
+This repository is part of the OOP course of Plovdiv University

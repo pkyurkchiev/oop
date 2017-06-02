@@ -1,7 +1,3 @@
-# Polymorphism
+# Inheritance
 
-### An abstract function
-Abstract function, cannot have functionality. You're basically saying, any child class MUST give their own version of this method, however it's too general to even try to implement in the parent class.
-
-### A virtual function
-Virtual function, is basically saying look, here's the functionality that may or may not be good enough for the child class. So if it is good enough, use this method, if not, then override me, and provide your own functionality.
+In object-oriented programming, inheritance is when an object or class is based on another object (prototypal inheritance) or class (class-based inheritance), using the same implementation (inheriting from an object or class: inheriting behavior, programming by difference) or specifying a new implementation to maintain the same behavior (realizing an interface). In .Net and other modern programming languages, a class can inherit only one parent class (single inheritance).

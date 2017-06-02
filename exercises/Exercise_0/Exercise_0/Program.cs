@@ -160,11 +160,10 @@ namespace Exercise_0
                 Console.WriteLine(Fibonacii(s));
             }
 
-            //Изчаква натискане на клавиш
             Console.ReadKey();
         }
 
-        //Факториел
+        //Factorial calculator
         public static int Factorial(int a)
         {
             if (a == 1) { return 1; }
@@ -172,7 +171,7 @@ namespace Exercise_0
             return a * Factorial(a - 1);
         }
 
-        //Числата на фибоначи
+        //Fibonacii number
         public static int Fibonacii(int n)
         {
             int a = 0;
@@ -187,14 +186,5 @@ namespace Exercise_0
 
             return a;
         }
-
-        // Задача 1:
-        // Напишете програма, която отпечатва в 
-        // конзолата числата от 1 до N. Числото N
-        // трябва да се чете от стандартния вход.
-
-        //Задача 2:
-        //Декларирайте две променливи от тип int.
-        //Разменете стойностите им и ги отпечатайте.
     }
 }
